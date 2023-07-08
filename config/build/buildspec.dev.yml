@@ -31,5 +31,5 @@ artifacts:
   name: MyProjectArtifacts
 cache:
   paths:
-    - 'notes/node_modules/**/*'
+    - 'node_modules/**/*'
     - path
