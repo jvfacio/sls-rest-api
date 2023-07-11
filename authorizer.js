@@ -30,7 +30,6 @@ const generatePolicy = (principalId, effect,resource) => {
     return authResponse;
 }
 
-
 exports.handler = async (event,contex,callback) =>{
     //lambda code
     var token = event.authorizationToken; // "Allow" or "Deny"
