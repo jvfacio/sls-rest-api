@@ -26,7 +26,6 @@ const generatePolicy = (principalId, effect,resource) => {
           };
           authResponse.policyDocument = policyDocument;
     }
-    
     console.log ("*-*-",JSON.stringify(authResponse));
     return authResponse;
 }
